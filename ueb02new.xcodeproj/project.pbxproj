@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93FC2A6322BFC07100004CD4 /* getTime.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3722BFC07100004CD4 /* getTime.c */; };
+		93FC2A6422BFC07100004CD4 /* calcWeekDay.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3822BFC07100004CD4 /* calcWeekDay.c */; };
+		93FC2A6522BFC07100004CD4 /* getDate.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3A22BFC07100004CD4 /* getDate.c */; };
+		93FC2A6622BFC07100004CD4 /* isTimeValid.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3B22BFC07100004CD4 /* isTimeValid.c */; };
+		93FC2A6722BFC07100004CD4 /* isLeapYear.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3C22BFC07100004CD4 /* isLeapYear.c */; };
+		93FC2A6822BFC07100004CD4 /* printDate.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3D22BFC07100004CD4 /* printDate.c */; };
+		93FC2A6922BFC07100004CD4 /* getDateFromString.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3E22BFC07100004CD4 /* getDateFromString.c */; };
+		93FC2A6A22BFC07100004CD4 /* isDateValid.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A3F22BFC07100004CD4 /* isDateValid.c */; };
+		93FC2A6B22BFC07100004CD4 /* getTimeFromString.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4022BFC07100004CD4 /* getTimeFromString.c */; };
+		93FC2A6C22BFC07100004CD4 /* printTime.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4122BFC07100004CD4 /* printTime.c */; };
+		93FC2A6D22BFC07100004CD4 /* deleteCalendarArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4422BFC07100004CD4 /* deleteCalendarArray.c */; };
+		93FC2A6E22BFC07100004CD4 /* checkAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4522BFC07100004CD4 /* checkAppointment.c */; };
+		93FC2A6F22BFC07100004CD4 /* deleteFaulty.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4622BFC07100004CD4 /* deleteFaulty.c */; };
+		93FC2A7022BFC07100004CD4 /* loadAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4722BFC07100004CD4 /* loadAppointment.c */; };
+		93FC2A7122BFC07100004CD4 /* saveCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4822BFC07100004CD4 /* saveCalendar.c */; };
+		93FC2A7222BFC07100004CD4 /* loadCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4A22BFC07100004CD4 /* loadCalendar.c */; };
+		93FC2A7322BFC07100004CD4 /* saveAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4B22BFC07100004CD4 /* saveAppointment.c */; };
+		93FC2A7422BFC07100004CD4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4C22BFC07100004CD4 /* main.c */; };
+		93FC2A7522BFC07100004CD4 /* 4searchAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4E22BFC07100004CD4 /* 4searchAppointment.c */; };
+		93FC2A7622BFC07100004CD4 /* printnextAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A4F22BFC07100004CD4 /* printnextAppointment.c */; };
+		93FC2A7722BFC07100004CD4 /* 6listCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5022BFC07100004CD4 /* 6listCalendar.c */; };
+		93FC2A7822BFC07100004CD4 /* 2editAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5222BFC07100004CD4 /* 2editAppointment.c */; };
+		93FC2A7922BFC07100004CD4 /* 3deleteAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5322BFC07100004CD4 /* 3deleteAppointment.c */; };
+		93FC2A7A22BFC07100004CD4 /* freeAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5422BFC07100004CD4 /* freeAppointment.c */; };
+		93FC2A7B22BFC07100004CD4 /* 5sortCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5522BFC07100004CD4 /* 5sortCalendar.c */; };
+		93FC2A7C22BFC07100004CD4 /* freeCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5622BFC07100004CD4 /* freeCalendar.c */; };
+		93FC2A7D22BFC07100004CD4 /* 1createAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5722BFC07100004CD4 /* 1createAppointment.c */; };
+		93FC2A7E22BFC07100004CD4 /* 0getMenu.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5822BFC07100004CD4 /* 0getMenu.c */; };
+		93FC2A7F22BFC07100004CD4 /* printAppointment.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5922BFC07100004CD4 /* printAppointment.c */; };
+		93FC2A8022BFC07100004CD4 /* getText.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5B22BFC07100004CD4 /* getText.c */; };
+		93FC2A8122BFC07100004CD4 /* clearScreen.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5C22BFC07100004CD4 /* clearScreen.c */; };
+		93FC2A8222BFC07100004CD4 /* printLine.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5D22BFC07100004CD4 /* printLine.c */; };
+		93FC2A8322BFC07100004CD4 /* waitForEnter.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5E22BFC07100004CD4 /* waitForEnter.c */; };
+		93FC2A8422BFC07100004CD4 /* clearBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A5F22BFC07100004CD4 /* clearBuffer.c */; };
+		93FC2A8522BFC07100004CD4 /* askYesOrNo.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A6022BFC07100004CD4 /* askYesOrNo.c */; };
+		93FC2A8622BFC07100004CD4 /* fclearBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2A6122BFC07100004CD4 /* fclearBuffer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93898F4E22B5317E008CDF49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93898F5022B5317E008CDF49 /* ueb02new */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ueb02new; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FC2A3722BFC07100004CD4 /* getTime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getTime.c; sourceTree = "<group>"; };
+		93FC2A3822BFC07100004CD4 /* calcWeekDay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calcWeekDay.c; sourceTree = "<group>"; };
+		93FC2A3922BFC07100004CD4 /* datetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datetime.h; sourceTree = "<group>"; };
+		93FC2A3A22BFC07100004CD4 /* getDate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getDate.c; sourceTree = "<group>"; };
+		93FC2A3B22BFC07100004CD4 /* isTimeValid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isTimeValid.c; sourceTree = "<group>"; };
+		93FC2A3C22BFC07100004CD4 /* isLeapYear.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isLeapYear.c; sourceTree = "<group>"; };
+		93FC2A3D22BFC07100004CD4 /* printDate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printDate.c; sourceTree = "<group>"; };
+		93FC2A3E22BFC07100004CD4 /* getDateFromString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getDateFromString.c; sourceTree = "<group>"; };
+		93FC2A3F22BFC07100004CD4 /* isDateValid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isDateValid.c; sourceTree = "<group>"; };
+		93FC2A4022BFC07100004CD4 /* getTimeFromString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getTimeFromString.c; sourceTree = "<group>"; };
+		93FC2A4122BFC07100004CD4 /* printTime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printTime.c; sourceTree = "<group>"; };
+		93FC2A4222BFC07100004CD4 /* datastructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = datastructure.h; path = ueb02new/datastructure.h; sourceTree = "<group>"; };
+		93FC2A4422BFC07100004CD4 /* deleteCalendarArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deleteCalendarArray.c; sourceTree = "<group>"; };
+		93FC2A4522BFC07100004CD4 /* checkAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = checkAppointment.c; sourceTree = "<group>"; };
+		93FC2A4622BFC07100004CD4 /* deleteFaulty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deleteFaulty.c; sourceTree = "<group>"; };
+		93FC2A4722BFC07100004CD4 /* loadAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadAppointment.c; sourceTree = "<group>"; };
+		93FC2A4822BFC07100004CD4 /* saveCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = saveCalendar.c; sourceTree = "<group>"; };
+		93FC2A4922BFC07100004CD4 /* database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = database.h; sourceTree = "<group>"; };
+		93FC2A4A22BFC07100004CD4 /* loadCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadCalendar.c; sourceTree = "<group>"; };
+		93FC2A4B22BFC07100004CD4 /* saveAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = saveAppointment.c; sourceTree = "<group>"; };
+		93FC2A4C22BFC07100004CD4 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ueb02new/main.c; sourceTree = "<group>"; };
+		93FC2A4E22BFC07100004CD4 /* 4searchAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 4searchAppointment.c; sourceTree = "<group>"; };
+		93FC2A4F22BFC07100004CD4 /* printnextAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printnextAppointment.c; sourceTree = "<group>"; };
+		93FC2A5022BFC07100004CD4 /* 6listCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 6listCalendar.c; sourceTree = "<group>"; };
+		93FC2A5122BFC07100004CD4 /* calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendar.h; sourceTree = "<group>"; };
+		93FC2A5222BFC07100004CD4 /* 2editAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 2editAppointment.c; sourceTree = "<group>"; };
+		93FC2A5322BFC07100004CD4 /* 3deleteAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 3deleteAppointment.c; sourceTree = "<group>"; };
+		93FC2A5422BFC07100004CD4 /* freeAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = freeAppointment.c; sourceTree = "<group>"; };
+		93FC2A5522BFC07100004CD4 /* 5sortCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 5sortCalendar.c; sourceTree = "<group>"; };
+		93FC2A5622BFC07100004CD4 /* freeCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = freeCalendar.c; sourceTree = "<group>"; };
+		93FC2A5722BFC07100004CD4 /* 1createAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 1createAppointment.c; sourceTree = "<group>"; };
+		93FC2A5822BFC07100004CD4 /* 0getMenu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 0getMenu.c; sourceTree = "<group>"; };
+		93FC2A5922BFC07100004CD4 /* printAppointment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printAppointment.c; sourceTree = "<group>"; };
+		93FC2A5B22BFC07100004CD4 /* getText.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getText.c; sourceTree = "<group>"; };
+		93FC2A5C22BFC07100004CD4 /* clearScreen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clearScreen.c; sourceTree = "<group>"; };
+		93FC2A5D22BFC07100004CD4 /* printLine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printLine.c; sourceTree = "<group>"; };
+		93FC2A5E22BFC07100004CD4 /* waitForEnter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = waitForEnter.c; sourceTree = "<group>"; };
+		93FC2A5F22BFC07100004CD4 /* clearBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clearBuffer.c; sourceTree = "<group>"; };
+		93FC2A6022BFC07100004CD4 /* askYesOrNo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = askYesOrNo.c; sourceTree = "<group>"; };
+		93FC2A6122BFC07100004CD4 /* fclearBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fclearBuffer.c; sourceTree = "<group>"; };
+		93FC2A6222BFC07100004CD4 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93898F4D22B5317E008CDF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93898F4722B5317E008CDF49 = {
+			isa = PBXGroup;
+			children = (
+				93FC2A4D22BFC07100004CD4 /* calendar */,
+				93FC2A4322BFC07100004CD4 /* database */,
+				93FC2A4222BFC07100004CD4 /* datastructure.h */,
+				93FC2A3622BFC07100004CD4 /* datetime */,
+				93FC2A4C22BFC07100004CD4 /* main.c */,
+				93FC2A5A22BFC07100004CD4 /* tools */,
+				93898F5122B5317E008CDF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93898F5122B5317E008CDF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93898F5022B5317E008CDF49 /* ueb02new */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FC2A3622BFC07100004CD4 /* datetime */ = {
+			isa = PBXGroup;
+			children = (
+				93FC2A3722BFC07100004CD4 /* getTime.c */,
+				93FC2A3822BFC07100004CD4 /* calcWeekDay.c */,
+				93FC2A3922BFC07100004CD4 /* datetime.h */,
+				93FC2A3A22BFC07100004CD4 /* getDate.c */,
+				93FC2A3B22BFC07100004CD4 /* isTimeValid.c */,
+				93FC2A3C22BFC07100004CD4 /* isLeapYear.c */,
+				93FC2A3D22BFC07100004CD4 /* printDate.c */,
+				93FC2A3E22BFC07100004CD4 /* getDateFromString.c */,
+				93FC2A3F22BFC07100004CD4 /* isDateValid.c */,
+				93FC2A4022BFC07100004CD4 /* getTimeFromString.c */,
+				93FC2A4122BFC07100004CD4 /* printTime.c */,
+			);
+			name = datetime;
+			path = ueb02new/datetime;
+			sourceTree = "<group>";
+		};
+		93FC2A4322BFC07100004CD4 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				93FC2A4422BFC07100004CD4 /* deleteCalendarArray.c */,
+				93FC2A4522BFC07100004CD4 /* checkAppointment.c */,
+				93FC2A4622BFC07100004CD4 /* deleteFaulty.c */,
+				93FC2A4722BFC07100004CD4 /* loadAppointment.c */,
+				93FC2A4822BFC07100004CD4 /* saveCalendar.c */,
+				93FC2A4922BFC07100004CD4 /* database.h */,
+				93FC2A4A22BFC07100004CD4 /* loadCalendar.c */,
+				93FC2A4B22BFC07100004CD4 /* saveAppointment.c */,
+			);
+			name = database;
+			path = ueb02new/database;
+			sourceTree = "<group>";
+		};
+		93FC2A4D22BFC07100004CD4 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				93FC2A4E22BFC07100004CD4 /* 4searchAppointment.c */,
+				93FC2A4F22BFC07100004CD4 /* printnextAppointment.c */,
+				93FC2A5022BFC07100004CD4 /* 6listCalendar.c */,
+				93FC2A5122BFC07100004CD4 /* calendar.h */,
+				93FC2A5222BFC07100004CD4 /* 2editAppointment.c */,
+				93FC2A5322BFC07100004CD4 /* 3deleteAppointment.c */,
+				93FC2A5422BFC07100004CD4 /* freeAppointment.c */,
+				93FC2A5522BFC07100004CD4 /* 5sortCalendar.c */,
+				93FC2A5622BFC07100004CD4 /* freeCalendar.c */,
+				93FC2A5722BFC07100004CD4 /* 1createAppointment.c */,
+				93FC2A5822BFC07100004CD4 /* 0getMenu.c */,
+				93FC2A5922BFC07100004CD4 /* printAppointment.c */,
+			);
+			name = calendar;
+			path = ueb02new/calendar;
+			sourceTree = "<group>";
+		};
+		93FC2A5A22BFC07100004CD4 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				93FC2A5B22BFC07100004CD4 /* getText.c */,
+				93FC2A5C22BFC07100004CD4 /* clearScreen.c */,
+				93FC2A5D22BFC07100004CD4 /* printLine.c */,
+				93FC2A5E22BFC07100004CD4 /* waitForEnter.c */,
+				93FC2A5F22BFC07100004CD4 /* clearBuffer.c */,
+				93FC2A6022BFC07100004CD4 /* askYesOrNo.c */,
+				93FC2A6122BFC07100004CD4 /* fclearBuffer.c */,
+				93FC2A6222BFC07100004CD4 /* tools.h */,
+			);
+			name = tools;
+			path = ueb02new/tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93898F4F22B5317E008CDF49 /* ueb02new */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93898F5722B5317E008CDF49 /* Build configuration list for PBXNativeTarget "ueb02new" */;
+			buildPhases = (
+				93898F4C22B5317E008CDF49 /* Sources */,
+				93898F4D22B5317E008CDF49 /* Frameworks */,
+				93898F4E22B5317E008CDF49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ueb02new;
+			productName = ueb02new;
+			productReference = 93898F5022B5317E008CDF49 /* ueb02new */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93898F4822B5317E008CDF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tom Mertens";
+				TargetAttributes = {
+					93898F4F22B5317E008CDF49 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 93898F4B22B5317E008CDF49 /* Build configuration list for PBXProject "ueb02new" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93898F4722B5317E008CDF49;
+			productRefGroup = 93898F5122B5317E008CDF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93898F4F22B5317E008CDF49 /* ueb02new */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93898F4C22B5317E008CDF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FC2A6C22BFC07100004CD4 /* printTime.c in Sources */,
+				93FC2A7D22BFC07100004CD4 /* 1createAppointment.c in Sources */,
+				93FC2A6B22BFC07100004CD4 /* getTimeFromString.c in Sources */,
+				93FC2A7F22BFC07100004CD4 /* printAppointment.c in Sources */,
+				93FC2A7922BFC07100004CD4 /* 3deleteAppointment.c in Sources */,
+				93FC2A6A22BFC07100004CD4 /* isDateValid.c in Sources */,
+				93FC2A6922BFC07100004CD4 /* getDateFromString.c in Sources */,
+				93FC2A7122BFC07100004CD4 /* saveCalendar.c in Sources */,
+				93FC2A6D22BFC07100004CD4 /* deleteCalendarArray.c in Sources */,
+				93FC2A6322BFC07100004CD4 /* getTime.c in Sources */,
+				93FC2A8622BFC07100004CD4 /* fclearBuffer.c in Sources */,
+				93FC2A7322BFC07100004CD4 /* saveAppointment.c in Sources */,
+				93FC2A7B22BFC07100004CD4 /* 5sortCalendar.c in Sources */,
+				93FC2A6822BFC07100004CD4 /* printDate.c in Sources */,
+				93FC2A6622BFC07100004CD4 /* isTimeValid.c in Sources */,
+				93FC2A7222BFC07100004CD4 /* loadCalendar.c in Sources */,
+				93FC2A7722BFC07100004CD4 /* 6listCalendar.c in Sources */,
+				93FC2A7822BFC07100004CD4 /* 2editAppointment.c in Sources */,
+				93FC2A8222BFC07100004CD4 /* printLine.c in Sources */,
+				93FC2A6E22BFC07100004CD4 /* checkAppointment.c in Sources */,
+				93FC2A6522BFC07100004CD4 /* getDate.c in Sources */,
+				93FC2A8022BFC07100004CD4 /* getText.c in Sources */,
+				93FC2A7C22BFC07100004CD4 /* freeCalendar.c in Sources */,
+				93FC2A6722BFC07100004CD4 /* isLeapYear.c in Sources */,
+				93FC2A7422BFC07100004CD4 /* main.c in Sources */,
+				93FC2A7522BFC07100004CD4 /* 4searchAppointment.c in Sources */,
+				93FC2A7A22BFC07100004CD4 /* freeAppointment.c in Sources */,
+				93FC2A7022BFC07100004CD4 /* loadAppointment.c in Sources */,
+				93FC2A7E22BFC07100004CD4 /* 0getMenu.c in Sources */,
+				93FC2A6F22BFC07100004CD4 /* deleteFaulty.c in Sources */,
+				93FC2A8522BFC07100004CD4 /* askYesOrNo.c in Sources */,
+				93FC2A7622BFC07100004CD4 /* printnextAppointment.c in Sources */,
+				93FC2A8122BFC07100004CD4 /* clearScreen.c in Sources */,
+				93FC2A6422BFC07100004CD4 /* calcWeekDay.c in Sources */,
+				93FC2A8322BFC07100004CD4 /* waitForEnter.c in Sources */,
+				93FC2A8422BFC07100004CD4 /* clearBuffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93898F5522B5317E008CDF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93898F5622B5317E008CDF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93898F5822B5317E008CDF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93898F5922B5317E008CDF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93898F4B22B5317E008CDF49 /* Build configuration list for PBXProject "ueb02new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93898F5522B5317E008CDF49 /* Debug */,
+				93898F5622B5317E008CDF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93898F5722B5317E008CDF49 /* Build configuration list for PBXNativeTarget "ueb02new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93898F5822B5317E008CDF49 /* Debug */,
+				93898F5922B5317E008CDF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93898F4822B5317E008CDF49 /* Project object */;
+}
